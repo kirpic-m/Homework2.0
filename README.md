@@ -10,7 +10,7 @@
 Збірка та запуск
 Необхідні інструменти
 
-    Компілятор C++, наприклад, g++.
+Компілятор C++, наприклад, g++.
 
 Команди для компіляції
 
@@ -18,7 +18,7 @@
 Скомпілювати main.cpp в об'єктний файл:
 
     
-g++ -c main.cpp -o main.o
+    g++ -c main.cpp -o main.o
 
   
 
@@ -26,7 +26,7 @@ g++ -c main.cpp -o main.o
 
 
     
-g++ -c std.cpp -o std.o
+    g++ -c std.cpp -o std.o
 
   
 
@@ -34,7 +34,7 @@ g++ -c std.cpp -o std.o
 
 
         
-g++ main.o std.o -o my_program
+    g++ main.o std.o -o my_program
 
 
 Запуск програми
@@ -42,13 +42,13 @@ g++ main.o std.o -o my_program
 Після успішної компіляції запустіть виконуваний файл:
 
     
-./my_program
+    ./my_program
 
   
 
 Очікуваний результат у консолі:
 
     
-Цей текст з функції у std.cpp
+    Цей текст з функції у std.cpp
 
   
